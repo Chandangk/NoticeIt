@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Firebasedemo</string>
+    <string name="choose">Choose</string>
+    <string name="enter_name_for_image">Enter name for Image</string>
+    <string name="upload">Upload</string>
+    <string name="view_uploads">View Uploads</string>
+</resources>

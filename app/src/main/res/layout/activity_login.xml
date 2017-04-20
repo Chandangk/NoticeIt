@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ram.firebasedemo.LoginActivity"
+    tools:background="@color/common_google_signin_btn_text_light_disabled"
+    android:elevation="0dp">
+
+
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Enter email"
+            android:inputType="textEmailAddress"
+            android:textColorLink="?attr/actionMenuTextColor" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Enter password"
+            android:inputType="textPassword"
+            android:textColorLink="?attr/actionMenuTextColor" />
+
+        <Button
+            android:id="@+id/buttonSignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="LOGIN"
+            android:textStyle="normal|bold|italic"
+            android:textAllCaps="false"
+            android:background="@color/colorPrimaryDark"
+            tools:elevation="4dp"
+            tools:textColorLink="@color/cardview_dark_background"
+            android:textSize="25sp" />
+
+        <TextView
+            android:text="Not have an account? Signup Here"
+            android:id="@+id/textViewSignUp"
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            android:textStyle="normal|italic" />
+
+    </LinearLayout>
+
+    <TextView
+        android:text="WELCOME!!! "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="@color/cardview_dark_background" />
+
+</RelativeLayout>
